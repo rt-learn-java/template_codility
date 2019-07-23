@@ -1,4 +1,4 @@
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SolutionTest {
 
@@ -14,6 +14,6 @@ class SolutionTest {
     void solution() {
         final Solution sut = new Solution();
         final int actual = sut.solution(null );
-        assertEquals(-1, actual);
-    }
+        assertEquals(-1, actual, "output is not as expected");
+    }  
 }

@@ -1,4 +1,4 @@
-# template mvn
+# template codility
 
 ## How do I compile my application sources?
 
